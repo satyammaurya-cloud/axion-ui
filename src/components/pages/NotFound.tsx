@@ -21,7 +21,7 @@ export function NotFound() {
           Page Not Found
         </h1>
         <p className="relative z-10 text-slate-400 text-lg mb-8 leading-relaxed">
-          The route you're looking for doesn't exist in the Axion Intelligence Platform. 
+          The route you're looking for doesn't exist in the Vistara INTELLIGENCE PLATFORM.
           It may have been moved or the URL might be incorrect.
         </p>
 

@@ -17,11 +17,11 @@ export function TopBar({ onlineAssets, lastUpdate, onLogout }: TopBarProps) {
 
       <div className="flex items-center gap-4">
         <div>
-          <h1 className="text-xl font-bold text-white tracking-tight uppercase">AXION INTELLIGENCE PLATFORM</h1>
+          <h1 className="text-xl font-bold text-white tracking-tight uppercase">Vistara INTELLIGENCE PLATFORM</h1>
           <p className="text-xs text-slate-400 font-medium">Agentic AI Predictive Insights</p>
         </div>
       </div>
-      
+
       <div className="flex items-center gap-6">
         <div className="hidden md:flex items-center gap-4 text-xs font-medium px-4 py-1.5 bg-[#0a0a0a] rounded border border-[#262626]">
           <span className="text-slate-500 uppercase tracking-widest">System Health:</span>
@@ -68,7 +68,7 @@ export function TopBar({ onlineAssets, lastUpdate, onLogout }: TopBarProps) {
 
         {/* User Profile */}
         <div className="relative">
-          <button 
+          <button
             onClick={() => setShowProfile(!showProfile)}
             className="flex items-center gap-2 hover:bg-[#262626] p-2 rounded transition-colors"
           >
@@ -83,7 +83,7 @@ export function TopBar({ onlineAssets, lastUpdate, onLogout }: TopBarProps) {
                 <p className="text-xs font-bold text-white">System Admin</p>
                 <p className="text-[10px] text-slate-400 truncate">info@devopsinsiders.com</p>
               </div>
-              <button 
+              <button
                 onClick={onLogout}
                 className="w-full text-left px-4 py-2 text-sm text-red-400 hover:bg-[#262626] flex items-center gap-2 transition-colors"
               >

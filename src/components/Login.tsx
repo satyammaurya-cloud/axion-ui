@@ -29,13 +29,13 @@ export function Login({ onLogin }: LoginProps) {
       {/* Ambient Premium Glows for entire page */}
       <div className="absolute top-[-20%] left-[-10%] w-[60%] h-[60%] bg-theme-deep/30 blur-[150px] rounded-full pointer-events-none z-0"></div>
       <div className="absolute bottom-[-20%] right-[-10%] w-[60%] h-[60%] bg-theme-deep/20 blur-[150px] rounded-full pointer-events-none z-0"></div>
-      
+
       <div className="w-full flex z-10">
-        
+
         {/* Left Side - Branding & Visuals */}
         <div className="hidden lg:flex lg:w-[55%] flex-col justify-between p-16 border-r border-white/5 relative overflow-hidden">
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wNSkiLz48L3N2Zz4=')] opacity-50"></div>
-          
+
           {/* Abstract Data Rings to fill empty space */}
           <div className="absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[900px] border border-theme-base/10 rounded-full animate-[spin_120s_linear_infinite] pointer-events-none"></div>
           <div className="absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] border-2 border-dashed border-theme-base/10 rounded-full animate-[spin_90s_linear_infinite_reverse] pointer-events-none"></div>
@@ -45,7 +45,7 @@ export function Login({ onLogin }: LoginProps) {
           <div className="relative z-10 animate-fade-up">
             <img src="/logo.png" alt="AXION Systems" className="h-16 object-contain mb-12 drop-shadow-[0_0_15px_rgba(255,255,255,0.2)]" />
             <h1 className="text-5xl lg:text-7xl font-black text-white tracking-tight mb-6 leading-[1.1]">
-              Axion Intelligence <br/>
+              Axion Intelligence <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-theme-grad-start to-theme-grad-end">Platform</span>
             </h1>
             <p className="text-slate-400 text-xl max-w-xl font-medium leading-relaxed mb-12">
@@ -129,10 +129,10 @@ export function Login({ onLogin }: LoginProps) {
                 <span className="text-[11px] text-slate-400 uppercase tracking-[0.3em] font-bold">Architected & Engineered By</span>
               </div>
               <div className="w-fit">
-                <img 
-                  src="/devopsinsiders-logo-light.png" 
-                  alt="DevOps Insiders" 
-                  className="h-12 object-contain opacity-90 hover:opacity-100 hover:scale-[1.02] transition-all duration-500 drop-shadow-[0_0_15px_rgba(255,255,255,0.1)] cursor-pointer" 
+                <img
+                  src="/devopsinsiders-logo-light.png"
+                  alt="DevOps Insiders"
+                  className="h-12 object-contain opacity-90 hover:opacity-100 hover:scale-[1.02] transition-all duration-500 drop-shadow-[0_0_15px_rgba(255,255,255,0.1)] cursor-pointer"
                 />
               </div>
             </div>
@@ -143,19 +143,19 @@ export function Login({ onLogin }: LoginProps) {
         <div className="w-full lg:w-[45%] flex items-center justify-center p-8 lg:p-12 animate-fade-up delay-100 relative">
           {/* Subtle Dot Grid Background for right side to fill space */}
           <div className="absolute inset-0 opacity-[0.05]" style={{ backgroundImage: 'radial-gradient(circle at center, white 1px, transparent 1px)', backgroundSize: '24px 24px' }}></div>
-          
+
           <div className="w-full max-w-md relative z-10">
             {/* Ambient massive glow directly behind form */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-gradient-to-br from-theme-grad-start/10 via-blue-600/10 to-transparent blur-[80px] -z-10 rounded-full"></div>
-            
+
             <div className="lg:hidden text-center mb-10 flex flex-col items-center">
               <img src="/logo.png" alt="AXION Systems" className="h-14 object-contain mb-5 drop-shadow-md" />
-              <p className="text-slate-400 font-bold tracking-[0.2em] uppercase text-[10px]">Axion Intelligence Platform</p>
+              <p className="text-slate-400 font-bold tracking-[0.2em] uppercase text-[10px]">Vistara INTELLIGENCE PLATFORM</p>
             </div>
 
             <div className="glass-card border border-white/10 rounded-[2rem] p-8 lg:p-12 shadow-[0_0_80px_rgba(0,0,0,0.4)] relative overflow-hidden bg-[#050505]/80 backdrop-blur-3xl">
               <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-theme-base/0 via-blue-500/50 to-theme-base/0"></div>
-              
+
               <div className="mb-12 text-center lg:text-left">
                 <h2 className="text-3xl font-black text-white mb-3 tracking-tight">Welcome Back</h2>
                 <p className="text-sm text-slate-400 font-medium leading-relaxed">Securely sign in to access your enterprise dashboard and live telemetry.</p>
@@ -209,7 +209,7 @@ export function Login({ onLogin }: LoginProps) {
                 </div>
               </form>
             </div>
-            
+
             <div className="text-center mt-12 text-[10px] font-bold text-slate-600 uppercase tracking-[0.2em] flex items-center justify-center gap-4">
               <span>&copy; 2026 Axion Systems</span>
               <span className="w-1 h-1 bg-slate-700 rounded-full"></span>
