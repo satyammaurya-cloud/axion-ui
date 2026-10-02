@@ -8,7 +8,7 @@ import { DigitalTwin } from '../DigitalTwin';
 import { ThermalCamera } from '../ThermalCamera';
 
 // const API_BASE = 'https://api.axionsystems.de';
-const API_BASE = 'http://52.187.240.240';
+const API_BASE = 'http://20.213.163.149';
 
 interface DashboardViewProps {
   devices: any[];
