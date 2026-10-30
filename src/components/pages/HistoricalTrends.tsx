@@ -5,7 +5,7 @@ import { useSearchParams } from 'react-router-dom';
 import { ShareLinkButton } from '../ShareLinkButton';
 
 // const API_BASE = 'https://api.axionsystems.de';
-const API_BASE = 'http://52.147.0.239';
+const API_BASE = 'http://10.0.5.5';
 
 
 // A set of distinct colors for the correlation lines
