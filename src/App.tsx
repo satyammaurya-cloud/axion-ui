@@ -16,7 +16,7 @@ import { DashboardView } from './components/pages/DashboardView';
 import { NotFound } from './components/pages/NotFound';
 
 // const API_BASE = 'https://api.axionsystems.de';
-const API_BASE = 'http://4.254.46.185';
+const API_BASE = 'http://10.0.1.4';
 
 function App() {
   const location = useLocation();
